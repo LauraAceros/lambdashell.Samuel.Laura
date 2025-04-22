@@ -4,8 +4,8 @@
 - **Full Names**: Laura Sofía Aceros Monsalve - Samuel Hernando Echeverri
 
 ## Development Environment
-- **Operating System**: [Your OS, e.g., Windows 11, Ubuntu 22.04, etc.]
-- **Tools**: Lambda Shell interpreter
+- **Operating System**: Ubuntu 20.04.6
+- **Tools**: Lambda Shell interpreter, LambdaShell vertion 0.9.9.1, Cabal vertion3.12.1.0, ghcup vertion 0.1.50.1
 - **Language**: Pure lambda calculus
 
 ## Implementation Overview
