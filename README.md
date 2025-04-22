@@ -10,9 +10,28 @@
 
 ## Implementation Overview
 This implementation demonstrates basic lambda calculus operations using Barendregt's numeral representation, including:
+
 - Boolean logic: true, false.
 - Pair operations.
 - Numerals and arithmetic operations (Barendregt's Representation): zero, successor, predecessor, zero-test.
+
+## Implementation Explained
+
+### Core Concepts
+- **Booleans**: Implemented as selector functions where `true` returns its first argument and `false` returns its second argument
+- **Pairs**: Constructed using a function that takes two elements and a selector, with projection functions `fst` and `snd` to extract elements
+- **Numerals**: 
+  - **zero** represented as the identity function
+  - **Successor** function creates nested pairs where each numeral n+1 is represented as (false, n)
+
+### Arithmetic Operations
+- **Predecessor**: Returns the second element of the pair (the previous numeral)
+- **Zero-test**: Checks the first element of the pair (true for zero, false otherwise)
+
+### Key Properties
+1. Pure functional implementation with no side effects
+2. Numerals grow recursively: n+1 = (false, n)
+3. All operations work through function application and reduction
 
 ## References 
 
