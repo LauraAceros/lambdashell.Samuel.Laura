@@ -43,3 +43,8 @@ This implementation demonstrates basic lambda calculus operations using Barendre
 
 2. [@resource] "Learn Lambda Calculus" (2020), University of Cambridge
    - URL: https://www.cl.cam.ac.uk/teaching/lambda-calculus/
+  
+3. [@book] Barendregt, H.P. (1998). *Introduction to Lambda Calculus*
+   - Key reference for numeral representations
+   - URL: https://www.cse.chalmers.se/research/group/logic/TypesSS05/Extra/geuvers.pdf
+     
