@@ -18,7 +18,6 @@ This implementation demonstrates basic lambda calculus operations using Barendre
 
 1. [@online] "Lambda Calculus" (2023), Wikipedia
    - URL: https://en.wikipedia.org/wiki/Lambda_calculus
-   - Last accessed: [date]
 
 2. [@resource] "Learn Lambda Calculus" (2020), University of Cambridge
    - URL: https://www.cl.cam.ac.uk/teaching/lambda-calculus/
