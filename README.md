@@ -8,6 +8,9 @@
 - **Tools**: Lambda Shell interpreter, LambdaShell version 0.9.9.1, Cabal version3.12.1.0, ghcup version 0.1.50.1
 - **Language**: Pure lambda calculus
 
+## Detailed instructions for running your solution
+After installing and opening the Labdashell environment, from the console we use the following command `lambdaShell < ~/lambda_defs.lambda` , so that it selects the folder of the .lambda file and ends by processing line by line, marks all the definitions and finally solves proposed examples.
+
 ## Implementation Overview
 This implementation demonstrates basic lambda calculus operations using Barendregt's numeral representation, including:
 
