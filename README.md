@@ -35,7 +35,7 @@ This structure allows us to define:
 
 - **Predecessor**: Returns the second element of the pair (the previous numeral)
 - **Zero-test**: Checks the first element of the pair (true for zero, false otherwise)
--   - **Successor** function creates nested pairs where each numeral n+1 is represented as (false, n)
+- **Successor** function creates nested pairs where each numeral n+1 is represented as (false, n)
 
 
 **All of these rely directly on the pair function. Without it, we wouldn't be able to build or unpack these number-like constructs.**
