@@ -25,11 +25,20 @@ This implementation demonstrates basic lambda calculus operations using Barendre
 - **Pairs**: Constructed using a function that takes two elements and a selector, with projection functions `fst` and `snd` to extract elements
 - **Numerals**: 
   - **zero** represented as the identity function
-  - **Successor** function creates nested pairs where each numeral n+1 is represented as (false, n)
 
-### Arithmetic Operations
+### Arithmetic Operations (Number Representation)
+To define numbers, we use the idea of pairing two pieces of information:
+1. A boolean indicating whether the value is zero (true for zero, false otherwise).
+2. The previous number (or some placeholder for zero).
+   
+This structure allows us to define:
+
 - **Predecessor**: Returns the second element of the pair (the previous numeral)
 - **Zero-test**: Checks the first element of the pair (true for zero, false otherwise)
+-   - **Successor** function creates nested pairs where each numeral n+1 is represented as (false, n)
+
+
+**All of these rely directly on the pair function. Without it, we wouldn't be able to build or unpack these number-like constructs.**
 
 ### Key Properties
 1. Pure functional implementation with no side effects
